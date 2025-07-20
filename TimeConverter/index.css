@@ -1,0 +1,42 @@
+.bg-container {
+    height: 100vh;
+    background-color: black;
+    padding: 25px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-family: "Roboto";
+}
+
+p {
+    font-size: 30px;
+}
+
+.content {
+    margin-bottom: 15px;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    color: white;
+
+}
+
+button {
+    background-color: lightblue;
+    color: black;
+    padding: 10px;
+
+}
+
+input {
+    margin-bottom: 15px;
+    color: black;
+}
+#seconds{
+    font-size: 32px;
+    color: white;
+}

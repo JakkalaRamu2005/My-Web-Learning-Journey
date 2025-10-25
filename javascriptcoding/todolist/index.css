@@ -1,0 +1,32 @@
+.todo-container{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-items: center;
+     */
+     justify-content: center;
+    height: 100vh;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: lightblue;
+    list-style-type: none;
+    color: black;
+    font-family: "Roboto";
+    padding: 5px;
+    width: 200px;
+    margin-bottom: 10px;
+}
+
+.todo-list-container{
+    display: flex;
+
+}

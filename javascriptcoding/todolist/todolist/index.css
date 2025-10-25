@@ -11,6 +11,7 @@
 
 .flex{
     display: flex;
+    flex-direction: column;
 }
 
 .items-container{
@@ -28,5 +29,8 @@
 
 .todo-list-container{
     display: flex;
+    flex-direction: column;
 
 }
+
+.todo-

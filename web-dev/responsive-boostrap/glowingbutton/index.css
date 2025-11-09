@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+button {
+    height: 40px;
+    width: 120px;
+}
+
+button:hover {
+    border-color: transparent;
+    background-color: linear-gradient(90deg,
+            #f9d923,
+            #00a19d,
+            #0c87b7,
+            #cb49ff,
+            #ff6666,
+            #f9d923);
+    box-shadow: 0 0 15px rgb(2,4,24);
+    animation: glow 12s linear forwards;
+}
+
+
+@keyframes glow{
+    from{
+        background-position: 0%;
+    }
+    to{
+        background-position: 400%;
+    }
+}
